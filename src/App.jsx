@@ -109,7 +109,7 @@ const cmsData = {
         title: "Mentorat et Accompagnement",
         date: "200+ Mentors",
         desc: "Un réseau de mentors expérimentés guidant les jeunes innovateurs dans la réussite de leurs projets.",
-        image: "/r2.jpeg",
+        image: "/r2.jpg",
         icon: <Award size={14} className="text-orange-400" />
       },
       {
