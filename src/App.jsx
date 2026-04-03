@@ -12,17 +12,17 @@ const cmsData = {
     {
       title: "L'Innovation au service de l'Inclusion",
       subtitle: "La DPJIC est une association à but non lucratif œuvrant pour l’inclusion sociale, économique et professionnelle des jeunes.",
-      image: "/slide1.png"
+      image: "/slide1.jpeg"
     },
     {
       title: "Autonomisation des Jeunes",
       subtitle: "Promouvoir l'entrepreneuriat à travers l'innovation, la formation et l'action communautaire.",
-      image: "/slide2.png"
+      image: "/slide2.jpeg"
     },
     {
       title: "Redonner une chance à chaque vie",
       subtitle: "Parce que chaque personne mérite dignité et opportunité, nous œuvrons au quotidien pour les plus vulnérables.",
-      image: "/slide3.png"
+      image: "/slide3.jpeg"
     }
   ],
   mission: {
@@ -109,7 +109,7 @@ const cmsData = {
         title: "Mentorat et Accompagnement",
         date: "200+ Mentors",
         desc: "Un réseau de mentors expérimentés guidant les jeunes innovateurs dans la réussite de leurs projets.",
-        image: "/r2.jpg",
+        image: "/r2.jpeg",
         icon: <Award size={14} className="text-orange-400" />
       },
       {
@@ -117,7 +117,7 @@ const cmsData = {
         title: "Accès aux Ressources",
         date: "Financement & Outils",
         desc: "Facilitation d'accès au financement et aux outils essentiels pour le développement des entrepreneurs.",
-        image: "r3.png",
+        image: "r3.jpeg",
         icon: <Briefcase size={14} className="text-orange-400" />
       },
       {
@@ -125,7 +125,7 @@ const cmsData = {
         title: "Inclusion Sociale",
         date: "Programmes spécifiques",
         desc: "Actions dédiées pour l'intégration et le soutien des personnes vulnérables et marginalisées.",
-        image: "/r4.jpg",
+        image: "/r4.jpeg",
         icon: <Globe size={14} className="text-orange-400" />
       }
     ]
@@ -216,7 +216,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-3 group cursor-pointer">
             <img 
-              src="/logo.png" 
+              src="/logo.jpeg" 
               alt="Logo DPJIC" 
               className="w-10 h-10 object-contain rounded-xl shadow-md"
             />
@@ -560,7 +560,7 @@ const App = () => {
             {/* Colonne 1: À Propos & Logo */}
             <div className="space-y-6">
               <div className="flex items-center gap-3">
-                <img src="/logo.png" alt="Logo DPJIC" className="w-10 h-10 object-contain rounded-xl shadow-md" />
+                <img src="/logo.jpeg" alt="Logo DPJIC" className="w-10 h-10 object-contain rounded-xl shadow-md" />
                 <div className="leading-none">
                   <span className="block font-black text-2xl tracking-tighter uppercase italic">DPJIC</span>
                   <span className="text-[10px] font-bold text-blue-400 uppercase tracking-[0.2em]">Jeunes Innovateurs</span>
