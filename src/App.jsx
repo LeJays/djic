@@ -636,7 +636,10 @@ const App = () => {
                   <div>
                     <span className="block text-xs font-black uppercase text-slate-500 mb-1">Appelez-nous</span>
                     <a href="tel:+237675936892" className="text-sm font-bold text-slate-200 hover:text-blue-400">+237 675 936 892</a>
+                    <a href="tel:+1(514)7758061" className="text-sm font-bold text-slate-200 hover:text-blue-400">+1(514)775-8061</a>
+                    <a href="tel:+237691436233" className="text-sm font-bold text-slate-200 hover:text-blue-400">+237 691 362 233</a>
                   </div>
+
                 </li>
                 <li className="flex gap-4 items-start group">
                   <div className="w-10 h-10 rounded-xl bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all">
